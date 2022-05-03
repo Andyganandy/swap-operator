@@ -30,5 +30,5 @@ endfunction
 
 nnoremap <expr> cr Switcharoo()
 xnoremap <expr> cr Switcharoo()
-" doubling <F4> works on a line
+" doubling cr works on a line
 nnoremap <expr> crcr Switcharoo() .. '_'
