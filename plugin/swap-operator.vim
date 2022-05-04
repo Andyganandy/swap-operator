@@ -1,7 +1,7 @@
-if exists("g:switcharoo_plug_loaded")
+if exists("g:swap_op_plug_loaded")
     finish
 endif
-let g:switcharoo_plug_loaded = 1
+let g:swap_op_plug_loaded = 1
 
 function Switcharoo(type = '') abort
   if a:type == ''
